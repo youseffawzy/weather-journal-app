@@ -4,7 +4,7 @@
 
 * [Overview](#Overview)
 * [Specification](#Specification)
-* Extras(#Extras)
+* [Extras](#Extras)
 ---
 
 ## Overview
@@ -19,4 +19,4 @@ An asynchronous web app that uses Web API and user data to dynamically update th
 * Style application in Css file to customized perfection.
 
 ## Extras
-If you are interested in testing the code as you go, you must install the project environment as mentioned in the instructions then run the server using  `node server.js` after that you can go to the template.
+If you are interested in testing the code, you must setup the project environment as mentioned in the instructions then run the server using  `node server.js` after that you can go to the template.
