@@ -9,12 +9,12 @@ body{
 
 #app{
     display: grid;
-    grid-auto-rows: minmax(150px, auto);
+    /* grid-auto-rows: minmax(150px, auto); */
     /* grid-template-columns:  */
     height:100vh;
     color: #C0C0C0;
     justify-content: center;
-    grid-gap: 1em;
+    /* grid-gap: 1em; */
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
@@ -25,13 +25,23 @@ body{
 */
 .entry{
     background: rgba(59, 74, 107, .4);
-    width: 110%;
+    width: auto;
+    
+    /* width: 110%; */
+    
+    
+
+   
 }
-/*
+
 #entryHolder{
-
+    max-width: 50%;
+    /* max-width:60% ; */
+    
+   
 }
 
+/*
 #date{
 
 }
@@ -75,6 +85,7 @@ button{
     height: 100px;
     position: relative;
     left: 50px;
+    bottom: 40px;
     background: #000e2b;
     color: #C0C0C0;
     padding: 16px 32px;
